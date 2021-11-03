@@ -16,7 +16,8 @@ module.exports = {
       colors: {
         'dark': '#11111',
         'primary': '#ea4913',
-        'band-story': '#0565bb'
+        'band-story': '#0565bb',
+        'happened': '#fccb05'
       },
       textColor:{
         'primary': '#f96400',
@@ -38,6 +39,9 @@ module.exports = {
         'see-more':  ["23px", { lineHeight: 1.09}],
         'title': ["45px", { lineHeight: 1.33}],
         'footer': ["14px", { lineHeight: 1.71 }],
+        'ban-title': ["25px", { lineHeight: 2.4 }],
+        'ban-paragraph': ["16px", { lineHeight: 1.88 }],
+      
       },
       padding: {
         "119": '119px',
@@ -46,7 +50,9 @@ module.exports = {
         "181": "181px",     
       },
       width:{
-        '369': '369px'
+        '369': '369px',
+        '612':'612px',
+        '418': '418px'
       },
       height:{
         '79': '79px'

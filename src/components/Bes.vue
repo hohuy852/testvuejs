@@ -19,32 +19,79 @@
         How to create mobile-optimized videos in minutes. Not a designer, every
         team makes a lot of videos Can be trimmed. Take the first
       </div>
-      <div class="grid md:gap-y-16 xl:gap-y-0 xl:grid-cols-3 gap-y-12 md:mx-174 mx-10">
-        <div class="relative mt-12 lg:mt-0" v-for="(item, i) in product" :key="i" >
+      <div
+        class="
+          grid
+          md:gap-y-16
+          xl:gap-y-0 xl:grid-cols-3
+          gap-y-12
+          md:mx-174
+          mx-10
+        "
+      >
+        <div
+          class="relative mt-12 lg:mt-0"
+          v-for="(item, i) in product"
+          :key="i"
+        >
           <div class="absolute -mt-12">
             <div class="relative">
-                <img src="@/assets/producticon-bg.png" alt="">
-                <div class="absolute underline text-badge font-extrabold top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                    {{item.number}}
-                </div>
-            </div>
-             
-          </div>
-            <div class="absolute flex border-4 border-black w-369 items-center bg-white h-79 bottom-0 -mb-10 left-1/2 transform -translate-x-1/2">
-              <div class="text-product font-extrabold max-w-180 ml-7">
-                How to create 
-mobile-optimized
+              <img src="@/assets/producticon-bg.png" alt="" />
+              <div
+                class="
+                  absolute
+                  underline
+                  text-badge
+                  font-extrabold
+                  top-1/2
+                  left-1/2
+                  transform
+                  -translate-x-1/2 -translate-y-1/2
+                "
+              >
+                {{ item.number }}
               </div>
-              <a href="#" class="w-16 h-16 border-4 border-black bg-black text-white relative go rounded-full ml-12 hover:bg-white hover:text-black">
-            
-              </a>
+            </div>
           </div>
-          <img :src="require(`@/assets/${item.img}`)">
-         
-
+          <div
+            class="
+              absolute
+              flex
+              border-4 border-black
+              w-369
+              items-center
+              bg-white
+              h-79
+              bottom-0
+              -mb-10
+              left-1/2
+              transform
+              -translate-x-1/2
+            "
+          >
+            <div class="text-product font-extrabold max-w-180 ml-7">
+              How to create mobile-optimized
+            </div>
+            <a
+              href="#"
+              class="
+                w-16
+                h-16
+                border-4 border-black
+                bg-black
+                text-white
+                relative
+                go
+                rounded-full
+                ml-12
+                hover:bg-white hover:text-black
+              "
+            >
+            </a>
+          </div>
+          <img :src="require(`@/assets/${item.img}`)" />
         </div>
       </div>
-    
     </div>
     <div class="products pt-36">
       <div
@@ -58,9 +105,13 @@ mobile-optimized
           mx-3
         "
       >
-        <div class="flex flex-col" v-for="(item, i) in 25" :key="i">
+        <div class="flex flex-col" v-for="(item, i) in products" :key="i">
           <a href="#">
-            <img src="@/assets/img-01.png" alt="" class="object-contain" />
+            <img
+              :src="require(`@/assets/products/${item.img}@2x.png`)"
+              alt=""
+              class="object-contain"
+            />
           </a>
 
           <div class="text-product-item font-semibold text-black mt-7">
@@ -98,24 +149,101 @@ mobile-optimized
 
 <script>
 export default {
-  data(){
-    return{
+  data() {
+    return {
       product: [
         {
-          number: '01',
-          img: 'best-image-01@2x.png'
+          number: "01",
+          img: "best-image-01@2x.png",
         },
-         {
-          number: '02',
-          img: 'best-image-02@2x.png'
+        {
+          number: "02",
+          img: "best-image-02@2x.png",
         },
-         {
-          number: '03',
-          img: 'best-image-03@2x.png'
-        }
-      ]
-    }
-  }
+        {
+          number: "03",
+          img: "best-image-03@2x.png",
+        },
+      ],
+      products: [
+        {
+          img: "img-01",
+        },
+        {
+          img: "img-02",
+        },
+        {
+          img: "img-03",
+        },
+        {
+          img: "img-04",
+        },
+        {
+          img: "img-05",
+        },
+        {
+          img: "img-06",
+        },
+        {
+          img: "img-07",
+        },
+        {
+          img: "img-08",
+        },
+        {
+          img: "img-09",
+        },
+        {
+          img: "img-10",
+        },
+        {
+          img: "img-11",
+        },
+        {
+          img: "img-12",
+        },
+        {
+          img: "img-13",
+        },
+        {
+          img: "img-14",
+        },
+        {
+          img: "img-15",
+        },
+        {
+          img: "img-16",
+        },
+        {
+          img: "img-17",
+        },
+        {
+          img: "img-18",
+        },
+        {
+          img: "img-19",
+        },
+        {
+          img: "img-20",
+        },
+        {
+          img: "img-21",
+        },
+        {
+          img: "img-22",
+        },
+        {
+          img: "img-23",
+        },
+        {
+          img: "img-24",
+        },
+        {
+          img: "img-25",
+        },
+      ],
+    };
+  },
 };
 </script>
 

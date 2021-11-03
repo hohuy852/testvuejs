@@ -5,9 +5,9 @@
     <introduction />
     <bes />
     <band-story />
-
+    <happened-issue/>
     <Footer />
-    <aside
+    <!-- <aside
       class="
         transform
         top-0
@@ -25,7 +25,7 @@
       :class="isOpen ? 'translate-x-0' : '-translate-x-full'"
     >
       ...
-    </aside>
+    </aside> -->
   </div>
 </template>
 
@@ -33,6 +33,7 @@
 import BandStory from "./components/BandStory.vue";
 import Bes from "./components/Bes.vue";
 import Footer from "./components/Footer.vue";
+import HappenedIssue from './components/HappenedIssue.vue';
 import Header from "./components/Header.vue";
 import Hero from "./components/Hero.vue";
 import Introduction from "./components/Introduction.vue";
@@ -46,6 +47,7 @@ export default {
     Bes,
     BandStory,
     Footer,
+    HappenedIssue,
   },
   
   watch: {
