@@ -17,14 +17,16 @@ module.exports = {
         'dark': '#11111',
         'primary': '#ea4913',
         'band-story': '#0565bb',
-        'happened': '#fccb05'
+        'happened': '#fccb05',
+        'brand-product': '#ff5500'
       },
       textColor:{
         'primary': '#f96400',
         'price': '#222222',
         'like': '#666666',
         'yellow-1': '#fcd32a',
-        'gray-1':' #a9a9a9'
+        'gray-1':' #a9a9a9',
+        
       },
       fontSize: {
         'h2': ["50px", { lineHeight: 1.2 }],
@@ -41,7 +43,9 @@ module.exports = {
         'footer': ["14px", { lineHeight: 1.71 }],
         'ban-title': ["25px", { lineHeight: 2.4 }],
         'ban-paragraph': ["16px", { lineHeight: 1.88 }],
-      
+        'brand': ["30px", { lineHeight: 1.67 }],
+        'whpn': ["55px", { lineHeight: 1.07 }],
+        'whpn-title': ["50px", { lineHeight: 1.2 }]
       },
       padding: {
         "119": '119px',
@@ -52,10 +56,15 @@ module.exports = {
       width:{
         '369': '369px',
         '612':'612px',
-        '418': '418px'
+        '418': '418px',
+        '387': '380px'
+      },
+      inset:{
+        '656': '656px'
       },
       height:{
-        '79': '79px'
+        '79': '79px',
+        '480': '480px'
       },
       margin:{
         "174": '174px'

@@ -6,6 +6,7 @@
     <bes />
     <band-story />
     <happened-issue/>
+    <what-happened/>
     <Footer />
     <!-- <aside
       class="
@@ -37,6 +38,7 @@ import HappenedIssue from './components/HappenedIssue.vue';
 import Header from "./components/Header.vue";
 import Hero from "./components/Hero.vue";
 import Introduction from "./components/Introduction.vue";
+import WhatHappened from './components/WhatHappened.vue';
 
 export default {
   name: "App",
@@ -48,6 +50,7 @@ export default {
     BandStory,
     Footer,
     HappenedIssue,
+    WhatHappened,
   },
   
   watch: {

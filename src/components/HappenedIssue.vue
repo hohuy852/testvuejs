@@ -23,8 +23,51 @@
         >SEE MORE</a
       >
     </div>
-    <div class="flex">
-
+    <div class="flex flex-col gap-y-2 mx-2 md:mx-0 md:gap-y-0 md:flex-row pb-36">
+      <div class="w-369  h-auto border-2 border-black bg-brand-product flex flex-col items-center gap-y-16 relative" >
+        <div class="text-whpn font-extrabold max-w-180 text-center  mt-24">
+          WHPN ISSUE
+        </div>
+        <div >
+          <img src="@/assets/brand/news-img-01.png" alt="">
+        </div>
+        <div class="absolute bottom-0 -right-5 transform overflow-hidden translate-y-1/2 z-10">
+          <img src="@/assets/brand/news-object-03.png" alt="">
+        </div>
+      </div>
+      <div class="flex flex-col gap-y-2 md:gap-y-0 md:flex-row">
+        <div class="max-w-sm h-auto flex flex-col relative ">
+          <div class="py-7  bg-black text-white text-center text-brand font-extrabold">B BRAND</div>
+          <div>
+            <img src="@/assets/brand/news-img-03@2x.png"  alt="">
+          </div>
+            <div class="absolute top-0 left-6 transform overflow-hidden -translate-y-1/2">
+          <img src="@/assets/brand/news-object-04.png" alt="">
+        </div>
+        </div>
+         <div class="max-w-sm h-auto flex flex-col ">
+          <div class="py-7  bg-black text-white text-center text-brand font-extrabold">C BRAND</div>
+          <div>
+            <img src="@/assets/brand/news-img-03@2x.png"  alt="">
+          </div>
+        </div>
+        <div class="max-w-sm h-auto flex flex-col ">
+          <div class="py-7  bg-brand-product text-white text-center text-brand font-extrabold border-t-2 border-r-2 border-black">D BRAND</div>
+          <div>
+            <img src="@/assets/brand/news-img-04@2x.png"  alt="">
+          </div>
+        </div>
+         <div class="max-w-sm h-auto flex flex-col  relative">
+          <div class="py-7  bg-black text-white text-center text-brand font-extrabold border-t-2 border-r-2 border-black">E BRAND</div>
+          <div>
+            <img src="@/assets/brand/news-img-05@2x.png"  alt="">
+          </div>
+          <div class="absolute bottom-0 md:-left-24 -left-1 transform overflow-hidden translate-y-3/4">
+          <img src="@/assets/brand/news-object-05.png" alt="">
+        </div>
+        </div>
+    
+      </div>
     </div>
   </div>
 </template>
@@ -35,3 +78,4 @@ export default {};
 
 <style>
 </style>
+
