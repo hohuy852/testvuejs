@@ -1,0 +1,23 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.badge::before{
+    content: "01";
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform:  translate(-50%, -50%);
+    text-decoration: underline;
+    @apply text-badge font-bold
+}
+.go::before{
+    content: "GO";
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform:  translate(-50%, -50%);
+    @apply text-product  font-bold 
+}
