@@ -28,10 +28,10 @@ every team makes a lot of videos Can be trimmed. Take the first
        <div class="absolute hidden md:block -left-80 top-314">
           <img src="@/assets/whpn/video-object-04.png" alt="">
       </div>
-        <div class="absolute  top-16 xl:opacity-100 xl:top-270 opacity-30 right-11 xl:right-223 z-20">
+        <div class="absolute  top-28 md:opacity-100 xl:top-270 opacity-40 right-10 xl:right-223 z-20">
           <img src="@/assets/whpn/video-object-06.png" alt="">
       </div>
-        <div class="absolute  top-3 xl:opacity-100 xl:top-168 opacity-30 right-0 xl:right-150  z-10">
+        <div class="absolute  top-10 md:opacity-100 xl:top-168 opacity-40 -right-12 xl:right-150  z-10">
           <img src="@/assets/whpn/video-object-07.png" alt="">
       </div>
        <div class="absolute hidden md:block -right-52 bottom-242  z-20">
@@ -43,10 +43,10 @@ every team makes a lot of videos Can be trimmed. Take the first
       <div class="ml-2 pb-96 relative z-50">
           <img src="@/assets/whpn/video.png" class="block mx-auto z-50" alt="">
       </div>
-       <div class="absolute  bottom-147 left-348  z-30">
+       <div class="absolute  -left-24 bottom-36 md:bottom-147 md:left-348  z-30">
           <img src="@/assets/whpn/video-object-01.png" alt="">
       </div>
-       <div class="absolute  bottom-276 right-648  z-20">
+       <div class="absolute  right-0 bottom-24 md:bottom-276 md:right-648  z-40">
           <img src="@/assets/whpn/video-object-02.png" alt="">
       </div>
        <div class="absolute bottom-314 left-223  z-20">

@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="font-body overflow-x-hidden">
+  <div id="app" class="font-body overflow-x-hidden relative">
     <Header />
     <hero />
     <introduction />
@@ -8,25 +8,6 @@
     <happened-issue/>
     <what-happened/>
     <Footer />
-    <!-- <aside
-      class="
-        transform
-        top-0
-        left-0
-        w-64
-        bg-white
-        fixed
-        h-full
-        overflow-auto
-        ease-in-out
-        transition-all
-        duration-300
-        z-30
-      "
-      :class="isOpen ? 'translate-x-0' : '-translate-x-full'"
-    >
-      ...
-    </aside> -->
   </div>
 </template>
 
@@ -51,6 +32,7 @@ export default {
     Footer,
     HappenedIssue,
     WhatHappened,
+
   },
   
   watch: {
