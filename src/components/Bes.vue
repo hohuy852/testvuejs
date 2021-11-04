@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="bes pb-197 ">
-      <div class="text-h2 pt-150 pb-49 text-primary font-bold text-center">
+      <div class="text-h2 pt-150 pb-49 text-primary font-bold text-center tracking-5">
         Best Product
       </div>
       <div

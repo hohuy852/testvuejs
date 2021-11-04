@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-24">
+  <footer class="mx-24">
     <div class="flex flex-col gap-y-3 md:gap-y-0 md:flex-row">
       <div class="flex flex-col gap-y-4 md:gap-y-8">
         <div class="text-header font-bold text-black">what happened</div>
@@ -64,7 +64,7 @@
         <img src="@/assets/snsicon-03.png" class="object-contain" alt="" />
       </div>
     </div>
-  </div>
+  </footer>
 </template>
 
 <script>

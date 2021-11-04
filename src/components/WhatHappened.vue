@@ -1,6 +1,6 @@
 <template>
   <div class="relative">
-       <div class="absolute  left-226 top-0">
+       <div class="absolute left-8 sm:left-226 top-0">
           <img src="@/assets/whpn/video-object-05.png" alt="">
       </div>
       <div class="text-whpn-title font-extrabold tracking-5px uppercase text-center pt-36 mb-12">
@@ -28,10 +28,10 @@ every team makes a lot of videos Can be trimmed. Take the first
        <div class="absolute hidden md:block -left-80 top-314">
           <img src="@/assets/whpn/video-object-04.png" alt="">
       </div>
-        <div class="absolute  top-270 right-223 z-20">
+        <div class="absolute  top-16 xl:opacity-100 xl:top-270 opacity-30 right-11 xl:right-223 z-20">
           <img src="@/assets/whpn/video-object-06.png" alt="">
       </div>
-        <div class="absolute  top-168 right-150  z-10">
+        <div class="absolute  top-3 xl:opacity-100 xl:top-168 opacity-30 right-0 xl:right-150  z-10">
           <img src="@/assets/whpn/video-object-07.png" alt="">
       </div>
        <div class="absolute hidden md:block -right-52 bottom-242  z-20">

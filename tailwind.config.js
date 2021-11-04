@@ -105,7 +105,8 @@ module.exports = {
       },
       height: {
         '79': '79px',
-        '480': '480px'
+        '480': '480px',
+        '1000': '1000px'
       },
       margin: {
         "174": '174px',
@@ -131,7 +132,7 @@ module.exports = {
       },
       maxWidth: {
         '180': '200px',
-      }
+      },
 
     },
   },
