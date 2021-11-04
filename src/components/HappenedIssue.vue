@@ -5,7 +5,7 @@
         text-title
         font-bold
         uppercase
-        tracking-5px
+        tracking-4.5
         text-center
         pt-158
         relative

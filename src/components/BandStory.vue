@@ -19,10 +19,10 @@
       <div class="absolute left-48 bottom-203">
         <img src="@/assets/brand-story/object-07.png" class="object-cover" alt="" />
       </div>
-        <div class="absolute hidden md:-right-16 bottom-309">
+        <div class="absolute right-0 md:-right-16 bottom-309">
         <img src="@/assets/brand-story/object-04.png" class="object-cover" alt="" />
       </div>
-      <div class="absolute hidden md:-right-6 bottom-186">
+      <div class="absolute  -right-6 bottom-186">
         <img src="@/assets/brand-story/object-05.png" class="object-cover" alt="" />
       </div>
        <div class="absolute  right-256 hidden xl:block top-61">

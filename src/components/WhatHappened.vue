@@ -3,7 +3,7 @@
        <div class="absolute left-8 sm:left-226 top-0">
           <img src="@/assets/whpn/video-object-05.png" alt="">
       </div>
-      <div class="text-whpn-title font-extrabold tracking-5px uppercase text-center pt-36 mb-12">
+      <div class="text-whpn-title font-extrabold tracking-10 uppercase text-center pt-36 mb-12">
           what happened
       </div>
       <div class="text-paragrahp2 font-normal max-w-2xl mx-auto text-center">

@@ -128,12 +128,16 @@ module.exports = {
       },
       letterSpacing: {
         '5': '5px',
-        '4.5': '4.5px'
+        '4.5': '4.5px',
+        '10': '10px'
       },
       maxWidth: {
         '180': '200px',
       },
-
+      borderWidth: {
+      '24': '24px',
+      '28': '28px'
+      }
     },
   },
   variants: {
