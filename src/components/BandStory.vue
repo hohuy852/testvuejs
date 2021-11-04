@@ -1,5 +1,5 @@
 <template>
-  <div class="relative mt-36 bg-band-story pb-44">
+  <div class="relative mt-36 bg-band-story pb-170">
     <div
       class="
         font-bold
@@ -8,10 +8,32 @@
         pb-10
         text-center
         uppercase
+        tracking-4.5
       "
     >
       Brand Story
     </div>
+    <div class="absolute left-0 bottom-203">
+        <img src="@/assets/brand-story/object-06.png" class="object-cover" alt="" />
+      </div>
+      <div class="absolute left-48 bottom-203">
+        <img src="@/assets/brand-story/object-07.png" class="object-cover" alt="" />
+      </div>
+        <div class="absolute hidden md:-right-16 bottom-309">
+        <img src="@/assets/brand-story/object-04.png" class="object-cover" alt="" />
+      </div>
+      <div class="absolute hidden md:-right-6 bottom-186">
+        <img src="@/assets/brand-story/object-05.png" class="object-cover" alt="" />
+      </div>
+       <div class="absolute right-256 hidden md:block top-61">
+        <img src="@/assets/brand-story/object-02.png" class="object-cover" alt="" />
+      </div>
+       <div class="absolute right-171 hidden md:block top-114">
+        <img src="@/assets/brand-story/object-03.png" class="object-cover" alt="" />
+      </div>
+       <div class="absolute left-169 hidden md:block top-183">
+        <img src="@/assets/brand-story/object-01.png" class="object-cover" alt="" />
+      </div>
     <div
       class="
         font-korean font-light
@@ -26,7 +48,7 @@
       아니더라도, 모든 팀에서 다듬을 수 있습니다. 브랜드의 성공을 위한 첫 걸음을
       내딛어보세요. 비디오를 단 몇 분 만에 제작해보세요.
     </div>
-    <div class="flex flex-col sm:flex-row justify-center">
+    <div class="flex flex-col sm:flex-row justify-center relative z-50 ">
       <div class="h-418 w-auto">
         <img src="@/assets/img.png" class="object-cover" alt="" />
       </div>

@@ -1,14 +1,13 @@
 <template>
   <div>
-    <div class="bes pb-40">
-      <div class="text-h2 pt-150 pb text-primary font-bold text-center">
+    <div class="bes pb-197">
+      <div class="text-h2 pt-150 pb-49 text-primary font-bold text-center">
         Best Product
       </div>
       <div
         class="
           text-primary
-          pt-12
-          pb-20
+          pb-74
           text-paragrahp2
           font-normal
           max-w-2xl
@@ -27,6 +26,7 @@
           gap-y-12
           md:mx-174
           mx-10
+          
         "
       >
         <div
@@ -128,12 +128,12 @@
           </div>
         </div>
       </div>
-      <div class="mt-28 text-center">
+      <div class="pt-116 text-center">
         <a
           href=""
           class="
             px-5
-            py-2
+            py-21
             md:px-9 md:py-5
             border-4 border-black
             text-see-more text-price
