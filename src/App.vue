@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="font-body">
+  <div id="app" class="font-body overflow-x-hidden">
     <Header />
     <hero />
     <introduction />
