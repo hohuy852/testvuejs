@@ -1,6 +1,6 @@
 <template>
-  <footer class="mx-24">
-    <div class="flex flex-col gap-y-3 lg:gap-y-0 lg:flex-row">
+  <footer class="mx-24 border-t-2">
+    <div class="flex flex-col gap-y-3 lg:gap-y-0 lg:flex-row pt-12">
       <div class="flex flex-col gap-y-4 md:gap-y-8">
         <div class="text-header font-bold text-black">what happened</div>
         <div class="flex flex-col text-header font-korean text-black">

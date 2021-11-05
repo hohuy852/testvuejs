@@ -53,6 +53,8 @@
           items-center
           gap-y-16
           relative
+          -ml-1
+          sm:-ml-0
         "
       >
         <div class="text-whpn font-extrabold max-w-180 text-center mt-24">
