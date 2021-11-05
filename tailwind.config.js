@@ -2,6 +2,10 @@ module.exports = {
   purge: { content: ['./public/**/*.html', './src/**/*.vue'] },
   darkMode: false, // or 'media' or 'class'
   theme: {
+    backgroundColor: theme => ({
+      ...theme('colors'),
+      'black': '#111111'
+    }),
     container: {
       center: true,
     },
@@ -10,24 +14,23 @@ module.exports = {
       'korean': ['"Noto Sans Korean", sans-serif'],
     },
     extend: {
+      
       gap: {
         '76': "76px"
       },
       colors: {
-        'dark': '#11111',
-        'primary': '#ea4913',
-        'band-story': '#0565bb',
-        'happened': '#fccb05',
-        'brand-product': '#ff5500',
+        'dark': '#111111', //dark
+        'tomato': '#ea4913',  //primary
+        'cerulean': '#0565bb', //band-story
+        'goldenrod': '#fccb05', //happened
+        'bright-orange-two': '#ff5500', //brand-product
       },
       textColor: {
-        'primary': '#f96400',
-        'price': '#222222',
-        'like': '#666666',
-        'yellow-1': '#fcd32a',
-        'gray-1': ' #a9a9a9',
-        
-
+        'bright-orange': '#f96400', //primary
+        'black-3': '#222222', //price
+        'brownish-grey': '#666666', //like
+        'sun-yellow': '#fcd32a', //yellow -1
+        'grayish': '#a9a9a9', //gray-1   
       },
       fontSize: {
         'h2': ["50px", { lineHeight: 1.2 }],
@@ -144,7 +147,6 @@ module.exports = {
   variants: {
     extend: {
       backgroundColor: ['dark']
-
     },
   },
   plugins: [],

@@ -18,7 +18,7 @@ every team makes a lot of videos Can be trimmed. Take the first
             py-2
             md:px-9 md:py-5
             border-4 border-black
-            text-see-more text-price
+            text-see-more text-black-3
             font-bold
             hover:bg-black hover:text-white
           "

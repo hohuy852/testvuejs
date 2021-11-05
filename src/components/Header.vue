@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-black">
+  <header class="bg-dark">
     <div class="flex py-7 mx-5 lg:mx-24">
       <a href="" class="flex items-center">
         <img src="@/assets/logo.svg" alt="" />
@@ -9,12 +9,12 @@
            <img src="@/assets/close.svg" alt="">
         </button>
         <ul class="flex flex-col xl:flex-row gap-x-76 font-normal uppercase text-black gap-y-4 pt-8 xl:pt-0 xl:text-white text-header" ref="nav">
-          <li class="hover:text-primary"><a href="#" >Introduction</a></li>
-          <li class="hover:text-primary"><a href="#">solution</a></li>
-          <li class="hover:text-primary"><a href="#">Rate plan</a></li>
+          <li class="hover:text-bright-orange"><a href="#" >Introduction</a></li>
+          <li class="hover:text-bright-orange"><a href="#">solution</a></li>
+          <li class="hover:text-bright-orange"><a href="#">Rate plan</a></li>
           <li><span>|</span></li>
-          <li class="hover:text-primary"><a href="#">Login</a></li>
-          <li class="hover:text-primary"><a href="#">Apply for free use</a></li>
+          <li class="hover:text-bright-orange"><a href="#">Login</a></li>
+          <li class="hover:text-bright-orange"><a href="#">Apply for free use</a></li>
         </ul>
       </nav>
       <button class="flex items-center ml-auto xl:hidden" id="open-btn" @click="toggleOpen">

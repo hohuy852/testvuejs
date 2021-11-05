@@ -1,9 +1,9 @@
 <template>
-  <div class="relative mt-36 bg-band-story pb-170">
+  <div class="relative mt-36 bg-cerulean pb-170">
     <div
       class="
         font-bold
-        text-title text-yellow-1
+        text-title text-sun-yellow
         pt-36
         pb-10
         text-center
@@ -37,7 +37,7 @@
     <div
       class="
         font-korean font-light
-        text-yellow-1
+        text-sun-yellow
         text-center
         mx-auto
         pb-20
@@ -72,7 +72,7 @@
                 py-2
                 md:px-9 md:py-5
                 border-4 border-black
-                text-see-more text-price
+                text-see-more text-black-3
                 font-bold
                 hover:bg-black hover:text-white
               "

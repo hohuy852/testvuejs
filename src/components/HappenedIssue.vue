@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-happened relative">
+  <div class="bg-goldenrod relative">
     <div
       class="
         text-title
@@ -33,7 +33,7 @@
           py-2
           md:px-9 md:py-5
           border-4 border-black
-          text-see-more text-price
+          text-see-more text-black-3
           font-bold
           hover:bg-black hover:text-white
         "
@@ -48,7 +48,7 @@
           w-369
           h-auto
           border-2 border-black
-          bg-brand-product
+          bg-bright-orange-two
           flex flex-col
           items-center
           gap-y-16
@@ -125,7 +125,7 @@
           <div
             class="
               py-7
-              bg-brand-product
+              bg-bright-orange-two
               text-white text-center text-brand
               font-extrabold
               border-t-2 border-r-2 border-black

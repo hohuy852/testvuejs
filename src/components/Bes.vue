@@ -1,12 +1,12 @@
 <template>
   <div>
     <div class="bes pb-197 ">
-      <div class="text-h2 pt-150 pb-49 text-primary font-bold text-center tracking-5">
+      <div class="text-h2 pt-150 pb-49 text-bright-orange font-bold text-center tracking-5">
         Best Product
       </div>
       <div
         class="
-          text-primary
+          text-bright-orange
           pb-74
           text-paragrahp2
           font-normal
@@ -122,12 +122,12 @@
             [what happen] How to create
           </div>
           <div class="flex mt-8">
-            <div class="text-product-action text-price font-normal">
+            <div class="text-product-action text-black-3 font-normal">
               2,500 won
             </div>
             <div class="flex ml-auto">
               <img src="@/assets/hearticon.png" alt="" class="object-contain" />
-              <div class="text-product-action text-like font-normal">236</div>
+              <div class="text-product-action text-brownish-grey font-normal">236</div>
             </div>
           </div>
         </div>
@@ -140,7 +140,7 @@
             py-21
             md:px-9 md:py-5
             border-4 border-black
-            text-see-more text-price
+            text-see-more text-black-3
             font-bold
             hover:bg-black hover:text-white
           "
