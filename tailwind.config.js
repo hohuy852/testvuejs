@@ -7,7 +7,7 @@ module.exports = {
     },
     fontFamily: {
       'body': ["'Montserrat', sans-serif"],
-      'korean': ["'Noto Sans Korean', sans-serif"]
+      'korean': ['"Noto Sans Korean", sans-serif'],
     },
     extend: {
       gap: {
@@ -18,7 +18,7 @@ module.exports = {
         'primary': '#ea4913',
         'band-story': '#0565bb',
         'happened': '#fccb05',
-        'brand-product': '#ff5500'
+        'brand-product': '#ff5500',
       },
       textColor: {
         'primary': '#f96400',
@@ -26,6 +26,7 @@ module.exports = {
         'like': '#666666',
         'yellow-1': '#fcd32a',
         'gray-1': ' #a9a9a9',
+        
 
       },
       fontSize: {
