@@ -41,7 +41,7 @@
       >
     </div>
     <div
-      class="flex flex-col gap-y-2 mx-2 md:mx-0 md:gap-y-0 md:flex-row pb-142"
+      class="flex flex-col gap-y-2 mx-2 md:mx-0 md:gap-y-0 md:flex-row pb-142  md:flex-wrap xl:flex-nowrap"
     >
       <div
         class="
@@ -76,7 +76,7 @@
           <img src="@/assets/brand/news-object-03.png" alt="" />
         </div>
       </div>
-      <div class="flex flex-col gap-y-2 md:gap-y-0 md:flex-row">
+      <!-- <div class="flex flex-col gap-y-2 md:gap-y-0 sm:items-center md:flex-wrap xl:flex-nowrap md:flex-row"> -->
         <div class="max-w-sm h-auto flex flex-col relative">
           <div
             class="
@@ -163,7 +163,7 @@
           >
             <img src="@/assets/brand/news-object-05.png" alt="" />
           </div>
-        </div>
+        <!-- </div> -->
       </div>
     </div>
   </div>
