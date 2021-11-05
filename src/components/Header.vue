@@ -9,12 +9,12 @@
            <img src="@/assets/close.svg" alt="">
         </button>
         <ul class="flex flex-col xl:flex-row gap-x-76 font-normal uppercase text-black gap-y-4 pt-8 xl:pt-0 xl:text-white text-header" ref="nav">
-          <li><a href="#">Introduction</a></li>
-          <li><a href="#">solution</a></li>
-          <li><a href="#">Rate plan</a></li>
-          <li><a href="#">|</a></li>
-          <li><a href="#">Login</a></li>
-          <li><a href="#">Apply for free use</a></li>
+          <li class="hover:text-primary"><a href="#" >Introduction</a></li>
+          <li class="hover:text-primary"><a href="#">solution</a></li>
+          <li class="hover:text-primary"><a href="#">Rate plan</a></li>
+          <li><span>|</span></li>
+          <li class="hover:text-primary"><a href="#">Login</a></li>
+          <li class="hover:text-primary"><a href="#">Apply for free use</a></li>
         </ul>
       </nav>
       <button class="flex items-center ml-auto xl:hidden" id="open-btn" @click="toggleOpen">
@@ -33,6 +33,7 @@ export default {
       let closeBtn = document.getElementById('close-btn')
       el.classList.add('inset-0')
       el.classList.add('fixed')
+      
        el.classList.remove('hidden')
        closeBtn.classList.remove('hidden')
       //let btn_el = document.getElementById('open-btn')
